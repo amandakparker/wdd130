@@ -12,6 +12,7 @@ header {
 }
 
 body {
+  background-color: aquamarine;
   font-size: 16px;
 }
 
@@ -21,6 +22,10 @@ footer {
   display: grid;
   grid-template-columns: 1fr 95px;
   align-items: center;
+}
+
+a {
+  color: #1372A4
 }
 
 /* Class Selectors  ***********/
