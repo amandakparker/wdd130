@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00c2d1;
+  color: #000000;
+  display: grid;
+  grid-template-columns: 80px 1fr 155px;
+  align-items: center;
+}
+
+body {
+  background-color: aquamarine;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #5d5b5d;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 95px;
+  align-items: center;
+}
+
+a {
+  color: #1372A4
+}
+
+/* Class Selectors  ***********/
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.topnavigation {
+  background-color: #fdb321;
+  color: #000000;
+}
