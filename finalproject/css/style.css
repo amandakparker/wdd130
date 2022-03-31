@@ -1,0 +1,13 @@
+body {
+  font-family: "Noto Serif", sans-serif;
+  background-color: #ffe5d4;
+  margin: 5em;
+}
+
+/* Class Selectors **************/
+.wireframes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  max-width: 100%;
+}
