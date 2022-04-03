@@ -165,3 +165,122 @@ em {
   grid-row: 3/4;
   padding: 0.75rem;
 }
+
+.raftingTrips {
+  margin: 1 em;
+  position: relative;
+}
+
+.imgCalendar {
+  border-radius: 1em;
+  box-shadow: 5px 5px;
+  margin: 0.5em;
+}
+
+.trip1,
+.trip2,
+.trip3 {
+  position: absolute;
+  background: radial-gradient(#eee, #fdb321);
+  text-align: center;
+  opacity: 0.9;
+  padding: 1em;
+  border-radius: 1em;
+  shape-outside: circle();
+  transition: width 2s 1s;
+}
+
+.trip1 {
+  top: 70px;
+  left: 200px;
+}
+
+.trip2 {
+  top: 160px;
+  left: 315px;
+}
+
+.trip3 {
+  top: 70px;
+  left: 815px;
+  width: 80px;
+  height: 200px;
+}
+
+.trip1:hover,
+.trip2:hover,
+.trip3:hover {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.classroom {
+  margin: 1 em;
+  position: relative;
+}
+
+.edu1,
+.edu2,
+.edu3 {
+  position: absolute;
+  width: 80px;
+  background: radial-gradient(#eee, #fdb321);
+  text-align: center;
+  opacity: 0.9;
+  padding: 1em;
+  border-radius: 1em;
+  shape-outside: circle();
+  transition: width 2s 1s;
+}
+
+.edu1:hover,
+.edu2:hover {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.edu1 {
+  top: 70px;
+  left: 175px;
+}
+
+.edu2 {
+  top: 200px;
+  left: 175px;
+}
+
+.edu3 {
+  top: 70px;
+  left: 560px;
+}
+
+.activitiesContent {
+  margin: 3em;
+}
+
+.coloring {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  max-width: 100%;
+  margin: 1em;
+}
+
+.mazes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  max-width: 100%;
+  margin: 1em;
+}
+
+.moreFun {
+  display: grid;
+  grid-template-columns: 175px 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  max-width: 100%;
+  margin: 1em;
+}
